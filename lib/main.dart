@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('MyApp'),
+          title: Text('MyApp1'),
           leading: IconButton(
             icon: const Icon(Icons.menu),
             onPressed: () {
