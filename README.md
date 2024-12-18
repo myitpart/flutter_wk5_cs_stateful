@@ -1,6 +1,6 @@
 # flutter_app2
 
-CS app Week03 - Layout and more widgets ..
+CS app Week03 - Layout and more widgets s ..
 
 ## Getting Started
 
