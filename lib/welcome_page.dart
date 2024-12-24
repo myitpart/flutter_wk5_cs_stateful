@@ -16,7 +16,7 @@ class _WelcomePageState extends State<WelcomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('MyApp1'),
+        title: Text('MyApp Stateful'),
         leading: IconButton(
           icon: const Icon(Icons.menu),
           onPressed: () {
@@ -36,8 +36,8 @@ class _WelcomePageState extends State<WelcomePage> {
         child: Column(
           children: [
             Text(
-              'hello',
-              style: TextStyle(fontSize: 26),
+              'Hello',
+              style: TextStyle(fontSize: 28),
             ),
             TextField(
               controller: _textController,
@@ -50,9 +50,6 @@ class _WelcomePageState extends State<WelcomePage> {
             ElevatedButton(
                 onPressed: () {
                   String input = _textController.text;
-                  double? number = double.tryParse(input);  //
-                  // double usd = double.tryParse(_textController.text) ?? 0.0; //
-                  double usd = double.parse(_textController.text) ;
                   setState(() {
                     _output = 'hi,  $input .., good job';
                   });
